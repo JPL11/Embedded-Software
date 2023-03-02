@@ -1,4 +1,4 @@
-# FPGA_NEXYS_A7_PROJECTS
+# FPGA
 
 This repo contains small size projects using NEXYS_A7 and Verilog 
 
