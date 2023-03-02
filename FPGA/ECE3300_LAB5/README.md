@@ -1,9 +1,5 @@
 LAB5 -  Alien Calculator using 7 seven-seg-displays by using instantiation 
 
-ECE3300L.02 - Summer 2022
-
-Group Jihun : Jihun Choi(Bronco ID#: 011841206) 
-
 LAB5 description:
 
  Alien calculator that handles addition, subtraction, and multiplication plus division (extra feature) of two 4bit numbers that each has an extra 1 it for its own sign using 7 seven-seg-displays is designed by using vivado software and test the results with FPGA. 
