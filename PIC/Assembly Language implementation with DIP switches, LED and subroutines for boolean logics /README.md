@@ -10,9 +10,13 @@ Here's the schematics of implemented codes:
 
 <img src='https://i.imgur.com/eIdrEYQ.jpg' title='Schematics_4' width='' alt='Schematics_4' />
 
+## PART A)
+
+The first part implements a basic program to input a member from the DIP switches, takes its 1's complement and display the results out to the LEDs. The 4 switches connected to PORT A are used to set a number. The content is read and masked in the lower 4-digit and stored in to the variable InB. The result is displayed on PORT C using 'COMF', 'MOVWF' and 'MOVFF' instructions. It shows the 1's complement of the number specified by the DIP switches.
+
 ## License
 
-    Copyright [2022] [Jacky Li]
+    Copyright [2023] [Jacky Li]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
