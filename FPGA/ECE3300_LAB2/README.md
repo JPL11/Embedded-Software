@@ -1,9 +1,5 @@
 LAB2 - 4 to 16 decoder
 
-ECE3300L.02 - Summer 2022
-
-Group A : Jihun Choi(Bronco ID#: 011841206) 
-
 LAB2 description: 
 
 4 to 16 decoder is designed by using vivado software and test the results with FPGA. Input ‘in’ is 4 bits, Input ‘enable’ which is an enable line is just 1 bit, and  Output ‘out’ is  16 bits. The function of 4 to 16 decoder is pretty simple. When the enable line equals ‘0’, the decoder is off. Even if we feed any 4 bits input, output will be simply zero(16b’0000000000000000). And when the enable line equals ‘1’, the decoder is on. 

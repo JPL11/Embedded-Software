@@ -1,9 +1,5 @@
 LAB6 - Barrel Shifter using 4 of seven-seg-displays by using instantiation 
 
-ECE3300L.02 - Summer 2022
-
-Group Jihun : Jihun Choi(Bronco ID#: 011841206) 
-
 LAB6 description:
 
   Barrel Shifter that has multiple functions of mode(auto/manual), load, rotation/shift, left/right, and etc… by instantiation using vivado software and test the results with FPGA board.  

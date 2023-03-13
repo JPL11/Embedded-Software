@@ -1,11 +1,5 @@
 LAB7 - updown load couonter using 8 of seven-seg-displays by using instantiation 
 
-ECE3300L.02 - Summer 2022
-
-Group Jihun : Jihun Choi(Bronco ID#: 011841206) + Group D(Eric & Michael)
-
-This lab7 was collaboration work with Group D. 
-
 LAB7 description:
 
    Updown Counter using 8 seven segment displays that has a function of loading 4-bit BCD value to any of 8 seven segment displays by instantiation using vivado software and test the results with FPGA board.
