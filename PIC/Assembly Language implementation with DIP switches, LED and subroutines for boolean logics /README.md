@@ -32,7 +32,19 @@ The ADD operation on part c) is replaced by doing the 'XOR' operation with the i
 
 ## PART F)
 
+The last routine is added by taking a 4-bit input number and convert into s BCD number which is the decimal equivalent of the input number. The input number is checked against the value 0x09. If it is greater than 9, then add a constant 0x06 to it. If it is less than 9, then no addition of the constant is needed. The operationis implemented by reading the input into the varaible 'InB', loadig a constant 0x09 into W and using the instruction CPFSGT to compare the value in 'InB' against the W register.
 
+## PART G)
+
+The five functions implemented above are grouped into five different sets of code, SUBROUTINE_COMP, SUBROUTINE_ADD, SUBROUTINE_OR, SUBROUTINE_XOR, SUBROUTINE_BCD. The 'BTFSC' instructions are used to do the decoding of the five tasks. The BCF and BSF are used to set the three bits 6-4 of the PORTD to show what routine is being exceuted.
+
+PORT D                  Action
+Bit_2 Bit_1 Bit_0 
+ 0 0 0                  1’s complement 
+ 0 0 1                  ADD operation 
+ 0 1 0                  OR operation 
+ 0 1 1                  XOR operation 
+ 1 0 0                  BCD conversion 
 
 ## License
 
