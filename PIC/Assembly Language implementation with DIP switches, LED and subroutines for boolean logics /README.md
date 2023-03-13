@@ -1,5 +1,9 @@
 # Assembly Language implementation
 
+## Notes
+
+This project implements uses of the Assembly Language with some arithmetic, logic and branching instructions.
+
 ## Schematics
 
 Here's the schematics of implemented codes:
