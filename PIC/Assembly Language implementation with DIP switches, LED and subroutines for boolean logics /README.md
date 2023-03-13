@@ -14,6 +14,26 @@ Here's the schematics of implemented codes:
 
 The first part implements a basic program to input a member from the DIP switches, takes its 1's complement and display the results out to the LEDs. The 4 switches connected to PORT A are used to set a number. The content is read and masked in the lower 4-digit and stored in to the variable InB. The result is displayed on PORT C using 'COMF', 'MOVWF' and 'MOVFF' instructions. It shows the 1's complement of the number specified by the DIP switches.
 
+## PART B)
+
+The same operation as part a) is added but a test condition is added. The test is added after the completion of the Complement operation. The Zero (Z flag) is set through the use of the instruction BZ. If Z flag is 1, BZ will force a jump to a label where PORTE bit 1 is set to 1. If Z flag is 0, the instruction just below the BZ instruction will be executed.
+
+## PART C)
+
+A new operation is implemented to add two numbers. The routine developed in part b) is copied to add codes and read a second input from PORTA and stored into the variable 'In_A' and stored the result into 'Result'. The result is displayed into PORT C and shown on the 5 LEDs. The fifth LED of PORT C shows the overflow of the result of the addition of two 4-bit numbers.
+
+## PART D)
+
+The ADD operation on part c) is replaced by doing the 'OR' operation with the instruction 'ORWF     f, W'.
+
+## PART E)
+
+The ADD operation on part c) is replaced by doing the 'XOR' operation with the instruction 'XORWF     f, W'.
+
+## PART F)
+
+
+
 ## License
 
     Copyright [2023] [Jacky Li]
