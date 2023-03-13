@@ -4,7 +4,7 @@
 
 Here's the schematics of implemented codes:
 
-<img src='[[https://i.imgur.com/cVDXGjB.jpg](https://i.imgur.com/cVDXGjB.jpg)' title='Schematics_4' width='' alt='Schematics_4' />
+<img src='https://i.imgur.com/cVDXGjB.jpg' title='Schematics_4' width='' alt='Schematics_4' />
 
 ## License
 
