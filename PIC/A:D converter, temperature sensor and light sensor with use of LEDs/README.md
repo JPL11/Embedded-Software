@@ -6,6 +6,8 @@ The voltage is read from the LMT84 using the PIC18F4620's ADC Channel 0 connecte
 
 ## Schematics
 
+Here's the schematics of implemented codes/circuit:
+
 ## License
 
     Copyright [2023] [Jacky Li]
