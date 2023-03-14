@@ -6,7 +6,7 @@ This project implements uses of the Assembly Language with some arithmetic, logi
 
 ## Schematics
 
-Here's the schematics of implemented codes:
+Here's the schematics of implemented codes/circuit:
 
 <img src='https://i.imgur.com/eIdrEYQ.jpg' title='Schematics_4' width='' alt='Schematics_4' />
 
