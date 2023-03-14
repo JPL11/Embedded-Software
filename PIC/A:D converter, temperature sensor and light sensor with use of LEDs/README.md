@@ -1,5 +1,11 @@
 # A/D converter, Temperature Sensor & Light Sensor
 
+## Notes
+
+The voltage is read from the LMT84 using the PIC18F4620's ADC Channel 0 connected to AN0. The tempertaure is calculated in degree C. Then the voltage is converted into the equivalent temperature in degree F. The temperature in degree F is displayed onto the two 7-segment displays. the same result is output to the TeraTerm terminal. The voltage readout of the LMT84 and the temperatures in degree F are displayed. The three common cathode RGB LEDs, D1, D2 and D3, show different colors based on temperature range, temperature and AN2 voltage respectively.
+
+## Schematics
+
 ## License
 
     Copyright [2023] [Jacky Li]
