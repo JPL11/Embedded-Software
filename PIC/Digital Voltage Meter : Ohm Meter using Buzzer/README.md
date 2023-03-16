@@ -1,5 +1,5 @@
-## Digital Voltage Meter: Ohm Meter using Buzzer
+# Digital Voltage Meter: Ohm Meter using Buzzer
 
-# Notes
+## Notes
 
-# Schematics
+## Schematics
