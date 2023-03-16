@@ -2,6 +2,8 @@
 
 ## Notes
 
+The same circuit is used as the one implemented in Implementation of LCD Panel in a Traffic Light Controller.
+
 ## Schematics
 
 ## License
