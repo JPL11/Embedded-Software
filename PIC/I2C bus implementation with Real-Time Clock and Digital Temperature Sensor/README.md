@@ -1,4 +1,4 @@
-# I2Cbus implementation with Real-Time Clock and Digital Temperature Sensor
+# I2C bus implementation with Real-Time Clock and Digital Temperature Sensor
 
 ## Notes
 
