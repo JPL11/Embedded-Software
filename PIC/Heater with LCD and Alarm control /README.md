@@ -2,6 +2,8 @@
 
 ## Notes
 
+GPIOs, A/D Converter, Temperature sensor, Light sensor, PWM, Timer and Counters, System interrupts, TFT interface, I2C bus, SPI bus, RTC, and IR Remote Control are used. It involves designing a system with a TFT panel as the main display, temperature and time display, fan control with speed and duty cycle, alarm function with a multicolor LED, a remote control, and a push-button switch to enable the alarm function. The three setup screens allow for changes to system variables: Time Setup Screen, Alarm Setup Screen, and Heater Temp Setup. The Heater Set Temperature Mode is used to program the temperature level that will trigger the fan to be turned on, and a special function is used to calculate the duty cycle.
+
 ## Schematics
 
 ## License
