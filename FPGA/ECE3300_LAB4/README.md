@@ -1,12 +1,5 @@
 LAB4 - - 2 digit counter using 2 seven-seg-displays by using instantiation 
 
-ECE3300L.02 - Summer 2022
-
-Group A : Jihun Choi(Bronco ID#: 011841206) 
-
-
-LAB4 description:
-
 2 digit counter (0~99) using 2 seven-seg-displays is designed by using vivado software and test the results with FPGA. 
 
 1) we create clock_divider module to divide clock for seven segment display
